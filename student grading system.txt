@@ -1,0 +1,19 @@
+students = {
+    "Ali": 85,
+    "Ayesha": 92,
+    "Ahmed": 75,
+    "Sara": 68,
+    "Usman": 55
+}
+
+for name, marks in students.items():
+    if marks >= 90:
+        grade = "A"
+    elif marks >= 80:
+        grade = "B"
+    elif marks >= 70:
+        grade = "C"
+    else:
+        grade = "F"
+
+    print(name, "Marks:", "Grade:", grade)
